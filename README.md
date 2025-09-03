@@ -1,29 +1,10 @@
-```mermaid
-graph TD;
-    A-->B;
-    B-->D;
-    C-->D;
-```
-ergewrgwergw
-werg
-werg
-wergwerg**werg**
-wergwerg
+Дано:
 
-```mermaid
-gitGraph
-    commit
-    branch develop
-    checkout develop
-    commit
-    commit
-    checkout main
-    merge develop
-    commit
-    branch feature
-    checkout feature
-    commit
-    commit
-    checkout main
-    merge feature
-```
+Дан треугольник заданый тремя точками.
+
+Точки заданы координатами $x_i,y_i:  i=[1,2,3] $
+
+Дана еще одна точка, которая задана также координатами $x_0,y_0$
+
+---
+Определить точка $x_0,y_0$  внутри или снаружи треугольника
